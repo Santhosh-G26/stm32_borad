@@ -1,0 +1,1 @@
+/usr/bin/arm-none-eabi-gcc -O0 -DDEBUG -ffreestanding -ggdb CMakeFiles/lab1.dir/src/main.c.o CMakeFiles/lab1.dir/src/startup.c.o -o lab1  -mthumb -mcpu=cortex-m4 -nostartfiles -T../linker.ld -Wl,-Map=lab.map 
